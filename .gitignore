@@ -68,7 +68,12 @@ Build/*/**
 Saved/*
 
 # Ignore config files
-!Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini
+!Saved/Config/
+
+Saved/Config/WorldState
+Saved/Config/CrashReportClient
+Saved/Config/WindowsEditor/Editor.ini
+Saved/Config/WindowsEditor/GameUserSettings.ini
 
 # Compiled source files for the engine to use
 Intermediate/*
